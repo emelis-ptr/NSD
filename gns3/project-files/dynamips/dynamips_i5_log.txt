@@ -1,0 +1,38 @@
+May 05 22:10:38.969 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 05 22:10:38.971 HYPERVISOR: Started on IP = localhost, TCP port = 51964.
+May 05 22:10:39.436 HYPERVISOR: exec_cmd: hypervisor version 
+May 05 22:10:39.436 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
+May 05 22:10:39.436 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
+May 05 22:10:39.436 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\36163ffa-62a5-40ef-a7ae-413e3657512a 
+May 05 22:10:39.436 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\36163ffa-62a5-40ef-a7ae-413e3657512a
+May 05 22:10:39.438 HYPERVISOR: exec_cmd: vm create RB1 5 c7200 
+May 05 22:10:39.441 VM: VM RB1 created.
+May 05 22:10:39.442 HYPERVISOR: exec_cmd: vm set_con_tcp_port RB1 5004 
+May 05 22:10:39.442 HYPERVISOR: exec_cmd: c7200 get_mac_addr RB1 
+May 05 22:10:39.443 HYPERVISOR: exec_cmd: vm get_status RB1 
+May 05 22:10:39.443 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 0 0 C7200-IO-FE 
+May 05 22:10:39.445 HYPERVISOR: exec_cmd: vm set_disk0 RB1 0 
+May 05 22:10:39.446 HYPERVISOR: exec_cmd: vm set_exec_area RB1 64 
+May 05 22:10:39.447 HYPERVISOR: exec_cmd: vm get_status RB1 
+May 05 22:10:39.447 HYPERVISOR: exec_cmd: vm set_idle_pc RB1 0x60210c60 
+May 05 22:10:39.449 HYPERVISOR: exec_cmd: vm set_ios RB1 C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+May 05 22:10:39.450 HYPERVISOR: exec_cmd: c7200 set_mac_addr RB1 ca05.1bcc.0000 
+May 05 22:10:39.452 HYPERVISOR: exec_cmd: vm set_nvram RB1 512 
+May 05 22:10:39.452 HYPERVISOR: exec_cmd: vm get_status RB1 
+May 05 22:10:39.452 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 1 0 PA-GE 
+May 05 22:10:39.453 HYPERVISOR: exec_cmd: vm get_status RB1 
+May 05 22:10:39.453 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 2 0 PA-GE 
+May 05 22:10:39.454 HYPERVISOR: exec_cmd: vm get_status RB1 
+May 05 22:10:39.455 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 3 0 PA-GE 
+May 05 22:10:39.456 HYPERVISOR: exec_cmd: vm get_status RB1 
+May 05 22:10:39.456 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 4 0 PA-GE 
+May 05 22:10:39.457 HYPERVISOR: exec_cmd: vm get_status RB1 
+May 05 22:10:39.457 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 5 0 PA-GE 
+May 05 22:10:39.458 HYPERVISOR: exec_cmd: vm get_status RB1 
+May 05 22:10:39.458 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 6 0 PA-GE 
+May 05 22:10:49.714 HYPERVISOR: exec_cmd: nio create_udp udp-4387876a-f598-4855-ba98-a3323a537e44 10033 127.0.0.1 10034 
+May 05 22:10:50.532 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RB1 1 0 udp-4387876a-f598-4855-ba98-a3323a537e44 
+May 05 22:10:50.534 HYPERVISOR: exec_cmd: vm get_status RB1 
+May 05 22:10:50.643 HYPERVISOR: exec_cmd: nio create_udp udp-24612b41-1ace-4f81-ab9c-4f4975abf015 10038 127.0.0.1 10039 
+May 05 22:10:50.647 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RB1 2 0 udp-24612b41-1ace-4f81-ab9c-4f4975abf015 
+May 05 22:10:50.648 HYPERVISOR: exec_cmd: vm get_status RB1 

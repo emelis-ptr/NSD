@@ -1,0 +1,41 @@
+May 05 22:10:36.520 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 05 22:10:36.522 HYPERVISOR: Started on IP = localhost, TCP port = 51952.
+May 05 22:10:36.947 HYPERVISOR: exec_cmd: hypervisor version 
+May 05 22:10:36.949 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
+May 05 22:10:36.953 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
+May 05 22:10:36.954 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3b4a6ffe-ee48-452f-994e-386961eb29dc 
+May 05 22:10:36.954 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3b4a6ffe-ee48-452f-994e-386961eb29dc
+May 05 22:10:36.955 HYPERVISOR: exec_cmd: vm create LSR 1 c7200 
+May 05 22:10:36.958 VM: VM LSR created.
+May 05 22:10:36.961 HYPERVISOR: exec_cmd: vm set_con_tcp_port LSR 5000 
+May 05 22:10:36.962 HYPERVISOR: exec_cmd: c7200 get_mac_addr LSR 
+May 05 22:10:36.962 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:36.963 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 0 0 C7200-IO-FE 
+May 05 22:10:36.966 HYPERVISOR: exec_cmd: vm set_disk0 LSR 0 
+May 05 22:10:36.968 HYPERVISOR: exec_cmd: vm set_exec_area LSR 64 
+May 05 22:10:36.970 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:36.971 HYPERVISOR: exec_cmd: vm set_idle_pc LSR 0x60210c60 
+May 05 22:10:36.974 HYPERVISOR: exec_cmd: vm set_ios LSR C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+May 05 22:10:36.975 HYPERVISOR: exec_cmd: c7200 set_mac_addr LSR ca01.1ee4.0000 
+May 05 22:10:36.976 HYPERVISOR: exec_cmd: vm set_nvram LSR 512 
+May 05 22:10:36.977 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:36.978 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 1 0 PA-GE 
+May 05 22:10:36.979 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:36.979 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 2 0 PA-GE 
+May 05 22:10:36.980 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:36.980 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 3 0 PA-GE 
+May 05 22:10:36.981 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:36.981 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 4 0 PA-GE 
+May 05 22:10:36.982 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:36.983 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 5 0 PA-GE 
+May 05 22:10:36.984 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:36.984 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 6 0 PA-GE 
+May 05 22:10:47.274 HYPERVISOR: exec_cmd: nio create_udp udp-0cff8548-1c4f-415c-b0d9-2305695cd9e1 10014 127.0.0.1 10015 
+May 05 22:10:48.108 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LSR 1 0 udp-0cff8548-1c4f-415c-b0d9-2305695cd9e1 
+May 05 22:10:48.110 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:49.235 HYPERVISOR: exec_cmd: nio create_udp udp-a8efc6d1-2f6b-47b2-a997-107e0b718c9e 10020 127.0.0.1 10021 
+May 05 22:10:49.239 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LSR 3 0 udp-a8efc6d1-2f6b-47b2-a997-107e0b718c9e 
+May 05 22:10:49.240 HYPERVISOR: exec_cmd: vm get_status LSR 
+May 05 22:10:50.825 HYPERVISOR: exec_cmd: nio create_udp udp-c6c678eb-b0b7-4203-b971-f29db278fbd5 10042 127.0.0.1 10043 
+May 05 22:10:50.829 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LSR 2 0 udp-c6c678eb-b0b7-4203-b971-f29db278fbd5 
+May 05 22:10:50.830 HYPERVISOR: exec_cmd: vm get_status LSR 

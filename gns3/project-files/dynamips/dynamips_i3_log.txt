@@ -1,0 +1,41 @@
+May 05 22:10:37.734 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 05 22:10:37.735 HYPERVISOR: Started on IP = localhost, TCP port = 51958.
+May 05 22:10:38.199 HYPERVISOR: exec_cmd: hypervisor version 
+May 05 22:10:38.200 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
+May 05 22:10:38.200 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
+May 05 22:10:38.200 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3ae21a4b-a7e2-48ff-8083-0898a3963b2d 
+May 05 22:10:38.201 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3ae21a4b-a7e2-48ff-8083-0898a3963b2d
+May 05 22:10:38.201 HYPERVISOR: exec_cmd: vm create PE1 3 c7200 
+May 05 22:10:38.205 VM: VM PE1 created.
+May 05 22:10:38.206 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE1 5002 
+May 05 22:10:38.207 HYPERVISOR: exec_cmd: c7200 get_mac_addr PE1 
+May 05 22:10:38.207 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:38.207 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 0 0 C7200-IO-FE 
+May 05 22:10:38.209 HYPERVISOR: exec_cmd: vm set_disk0 PE1 0 
+May 05 22:10:38.211 HYPERVISOR: exec_cmd: vm set_exec_area PE1 64 
+May 05 22:10:38.213 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:38.214 HYPERVISOR: exec_cmd: vm set_idle_pc PE1 0x60210c60 
+May 05 22:10:38.216 HYPERVISOR: exec_cmd: vm set_ios PE1 C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+May 05 22:10:38.217 HYPERVISOR: exec_cmd: c7200 set_mac_addr PE1 ca03.07cc.0000 
+May 05 22:10:38.218 HYPERVISOR: exec_cmd: vm set_nvram PE1 512 
+May 05 22:10:38.219 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:38.219 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 1 0 PA-GE 
+May 05 22:10:38.220 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:38.221 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 2 0 PA-GE 
+May 05 22:10:38.222 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:38.222 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 3 0 PA-GE 
+May 05 22:10:38.224 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:38.224 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 4 0 PA-GE 
+May 05 22:10:38.225 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:38.225 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 5 0 PA-GE 
+May 05 22:10:38.226 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:38.227 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 6 0 PA-GE 
+May 05 22:10:46.989 HYPERVISOR: exec_cmd: nio create_udp udp-e3a36629-b6c5-4a45-987e-7c841c533a26 10012 127.0.0.1 10013 
+May 05 22:10:47.264 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE1 1 0 udp-e3a36629-b6c5-4a45-987e-7c841c533a26 
+May 05 22:10:47.265 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:49.586 HYPERVISOR: exec_cmd: nio create_udp udp-09d9b3f5-521d-432c-a5d4-9b6d68b72111 10029 127.0.0.1 10030 
+May 05 22:10:49.589 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE1 3 0 udp-09d9b3f5-521d-432c-a5d4-9b6d68b72111 
+May 05 22:10:49.590 HYPERVISOR: exec_cmd: vm get_status PE1 
+May 05 22:10:50.554 HYPERVISOR: exec_cmd: nio create_udp udp-04c5f3fb-d6fd-4d61-bf2e-e0b4d37ed468 10035 127.0.0.1 10036 
+May 05 22:10:50.564 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE1 2 0 udp-04c5f3fb-d6fd-4d61-bf2e-e0b4d37ed468 
+May 05 22:10:50.565 HYPERVISOR: exec_cmd: vm get_status PE1 

@@ -1,0 +1,1 @@
+docker build -t weibeld-ubuntu-networking:latest .

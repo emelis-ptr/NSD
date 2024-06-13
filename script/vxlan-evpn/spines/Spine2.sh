@@ -9,6 +9,9 @@ net add loopback lo ip add 10.123.4.4/32
 
 # ospf
 net add ospf router-id 10.123.4.4
+net add ospf network 10.123.4.4/32 area 0
+net add ospf network 10.10.2.0/30 area 0
+net add ospf network 10.20.2.0/30 area 0
 net add ospf network 0.0.0.0/0 area 0
 
 net pending

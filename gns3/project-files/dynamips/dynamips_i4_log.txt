@@ -1,41 +1,67 @@
-May 05 22:10:38.343 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-May 05 22:10:38.345 HYPERVISOR: Started on IP = localhost, TCP port = 51961.
-May 05 22:10:38.807 HYPERVISOR: exec_cmd: hypervisor version 
-May 05 22:10:38.811 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
-May 05 22:10:38.811 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
-May 05 22:10:38.812 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\b8124295-aa07-45bd-ad9b-1e8bb41cb363 
-May 05 22:10:38.813 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\b8124295-aa07-45bd-ad9b-1e8bb41cb363
-May 05 22:10:38.815 HYPERVISOR: exec_cmd: vm create PE3 4 c7200 
-May 05 22:10:38.836 VM: VM PE3 created.
-May 05 22:10:38.838 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE3 5003 
-May 05 22:10:38.838 HYPERVISOR: exec_cmd: c7200 get_mac_addr PE3 
-May 05 22:10:38.838 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:38.838 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 0 0 C7200-IO-FE 
-May 05 22:10:38.839 HYPERVISOR: exec_cmd: vm set_disk0 PE3 0 
-May 05 22:10:38.840 HYPERVISOR: exec_cmd: vm set_exec_area PE3 64 
-May 05 22:10:38.841 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:38.841 HYPERVISOR: exec_cmd: vm set_idle_pc PE3 0x60210c60 
-May 05 22:10:38.844 HYPERVISOR: exec_cmd: vm set_ios PE3 C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
-May 05 22:10:38.845 HYPERVISOR: exec_cmd: c7200 set_mac_addr PE3 ca04.1f40.0000 
-May 05 22:10:38.846 HYPERVISOR: exec_cmd: vm set_nvram PE3 512 
-May 05 22:10:38.848 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:38.848 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 1 0 PA-GE 
-May 05 22:10:38.849 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:38.849 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 2 0 PA-GE 
-May 05 22:10:38.850 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:38.851 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 3 0 PA-GE 
-May 05 22:10:38.852 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:38.852 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 4 0 PA-GE 
-May 05 22:10:38.853 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:38.853 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 5 0 PA-GE 
-May 05 22:10:38.854 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:38.854 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 6 0 PA-GE 
-May 05 22:10:48.304 HYPERVISOR: exec_cmd: nio create_udp udp-09d76cf6-8ad8-415b-bf9d-41d975549584 10018 127.0.0.1 10019 
-May 05 22:10:49.221 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 1 0 udp-09d76cf6-8ad8-415b-bf9d-41d975549584 
-May 05 22:10:49.222 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:49.330 HYPERVISOR: exec_cmd: nio create_udp udp-d90938f7-7107-49d2-b6fc-641abca7cc99 10023 127.0.0.1 10024 
-May 05 22:10:49.334 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 3 0 udp-d90938f7-7107-49d2-b6fc-641abca7cc99 
-May 05 22:10:49.335 HYPERVISOR: exec_cmd: vm get_status PE3 
-May 05 22:10:49.449 HYPERVISOR: exec_cmd: nio create_udp udp-3d05b471-61d8-47ca-b1e7-895bb187f5ec 10026 127.0.0.1 10027 
-May 05 22:10:49.452 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 2 0 udp-3d05b471-61d8-47ca-b1e7-895bb187f5ec 
-May 05 22:10:49.452 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:56:51.124 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 13 20:56:51.131 HYPERVISOR: Started on IP = localhost, TCP port = 53782.
+Jun 13 20:56:51.559 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 13 20:56:51.560 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
+Jun 13 20:56:51.560 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
+Jun 13 20:56:51.561 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\b8124295-aa07-45bd-ad9b-1e8bb41cb363 
+Jun 13 20:56:51.561 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\b8124295-aa07-45bd-ad9b-1e8bb41cb363
+Jun 13 20:56:51.561 HYPERVISOR: exec_cmd: vm create PE3 4 c7200 
+Jun 13 20:56:51.564 VM: VM PE3 created.
+Jun 13 20:56:51.566 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE3 5003 
+Jun 13 20:56:51.567 HYPERVISOR: exec_cmd: c7200 get_mac_addr PE3 
+Jun 13 20:56:51.569 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:56:51.569 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 0 0 C7200-IO-FE 
+Jun 13 20:56:51.571 HYPERVISOR: exec_cmd: vm set_disk0 PE3 0 
+Jun 13 20:56:51.572 HYPERVISOR: exec_cmd: vm set_exec_area PE3 64 
+Jun 13 20:56:51.573 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:56:51.573 HYPERVISOR: exec_cmd: vm set_idle_pc PE3 0x60210c60 
+Jun 13 20:56:51.575 HYPERVISOR: exec_cmd: vm set_ios PE3 C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Jun 13 20:56:51.575 HYPERVISOR: exec_cmd: c7200 set_mac_addr PE3 ca04.1f40.0000 
+Jun 13 20:56:51.577 HYPERVISOR: exec_cmd: vm set_nvram PE3 512 
+Jun 13 20:56:51.578 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:56:51.578 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 1 0 PA-GE 
+Jun 13 20:56:51.579 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:56:51.579 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 2 0 PA-GE 
+Jun 13 20:56:51.581 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:56:51.581 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 3 0 PA-GE 
+Jun 13 20:56:51.582 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:56:51.583 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 4 0 PA-GE 
+Jun 13 20:56:51.586 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:56:51.586 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 5 0 PA-GE 
+Jun 13 20:56:51.587 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:56:51.587 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 6 0 PA-GE 
+Jun 13 20:57:00.105 HYPERVISOR: exec_cmd: nio create_udp udp-2811b134-7f10-4b12-8f8c-b0fadf349000 10018 127.0.0.1 10019 
+Jun 13 20:57:00.907 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 1 0 udp-2811b134-7f10-4b12-8f8c-b0fadf349000 
+Jun 13 20:57:00.908 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:57:01.041 HYPERVISOR: exec_cmd: nio create_udp udp-7ea54aaa-05b9-4b8a-ae3d-72b62c80665a 10023 127.0.0.1 10024 
+Jun 13 20:57:01.045 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 2 0 udp-7ea54aaa-05b9-4b8a-ae3d-72b62c80665a 
+Jun 13 20:57:01.046 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 20:57:26.677 HYPERVISOR: exec_cmd: nio create_udp udp-1a379481-ebf9-4ccc-bfed-5e3916ac4818 10057 127.0.0.1 10058 
+Jun 13 20:57:26.706 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 3 0 udp-1a379481-ebf9-4ccc-bfed-5e3916ac4818 
+Jun 13 20:57:26.708 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 21:43:12.639 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jun 13 21:43:12.654 VM: VM Ghost created.
+Jun 13 21:43:12.659 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Jun 13 21:43:12.660 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 13 21:43:12.660 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-256.ghost 
+Jun 13 21:43:12.661 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Jun 13 21:43:12.663 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 13 21:43:12.700 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 13 21:43:12.700 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 13 21:43:13.492 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 13 21:43:13.511 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jun 13 21:43:13.750 VM: VM Ghost shutdown.
+Jun 13 21:43:13.752 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jun 13 21:43:13.757 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 13 21:43:13.757 VM: VM Ghost destroyed.
+Jun 13 21:43:13.830 HYPERVISOR: exec_cmd: vm set_ghost_status PE3 2 
+Jun 13 21:43:13.832 HYPERVISOR: exec_cmd: vm set_ghost_file PE3 C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-256.ghost 
+Jun 13 21:43:13.835 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 21:43:13.845 HYPERVISOR: exec_cmd: vm set_config PE3 configs\i4_startup-config.cfg 
+Jun 13 21:43:13.845 HYPERVISOR: exec_cmd: vm start PE3 
+Jun 13 21:43:44.379 HYPERVISOR: exec_cmd: vm extract_config PE3 
+Jun 13 21:44:14.374 HYPERVISOR: exec_cmd: vm extract_config PE3 
+Jun 13 22:30:05.537 HYPERVISOR: exec_cmd: vm get_status PE3 
+Jun 13 22:30:05.543 HYPERVISOR: exec_cmd: vm stop PE3 
+Jun 13 22:30:05.902 VM: VM PE3 shutdown.
+Jun 13 22:30:06.015 HYPERVISOR: exec_cmd: vm extract_config PE3 

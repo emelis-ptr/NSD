@@ -1,41 +1,52 @@
-May 05 22:10:36.520 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-May 05 22:10:36.522 HYPERVISOR: Started on IP = localhost, TCP port = 51952.
-May 05 22:10:36.947 HYPERVISOR: exec_cmd: hypervisor version 
-May 05 22:10:36.949 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
-May 05 22:10:36.953 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
-May 05 22:10:36.954 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3b4a6ffe-ee48-452f-994e-386961eb29dc 
-May 05 22:10:36.954 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3b4a6ffe-ee48-452f-994e-386961eb29dc
-May 05 22:10:36.955 HYPERVISOR: exec_cmd: vm create LSR 1 c7200 
-May 05 22:10:36.958 VM: VM LSR created.
-May 05 22:10:36.961 HYPERVISOR: exec_cmd: vm set_con_tcp_port LSR 5000 
-May 05 22:10:36.962 HYPERVISOR: exec_cmd: c7200 get_mac_addr LSR 
-May 05 22:10:36.962 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:36.963 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 0 0 C7200-IO-FE 
-May 05 22:10:36.966 HYPERVISOR: exec_cmd: vm set_disk0 LSR 0 
-May 05 22:10:36.968 HYPERVISOR: exec_cmd: vm set_exec_area LSR 64 
-May 05 22:10:36.970 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:36.971 HYPERVISOR: exec_cmd: vm set_idle_pc LSR 0x60210c60 
-May 05 22:10:36.974 HYPERVISOR: exec_cmd: vm set_ios LSR C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
-May 05 22:10:36.975 HYPERVISOR: exec_cmd: c7200 set_mac_addr LSR ca01.1ee4.0000 
-May 05 22:10:36.976 HYPERVISOR: exec_cmd: vm set_nvram LSR 512 
-May 05 22:10:36.977 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:36.978 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 1 0 PA-GE 
-May 05 22:10:36.979 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:36.979 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 2 0 PA-GE 
-May 05 22:10:36.980 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:36.980 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 3 0 PA-GE 
-May 05 22:10:36.981 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:36.981 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 4 0 PA-GE 
-May 05 22:10:36.982 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:36.983 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 5 0 PA-GE 
-May 05 22:10:36.984 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:36.984 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 6 0 PA-GE 
-May 05 22:10:47.274 HYPERVISOR: exec_cmd: nio create_udp udp-0cff8548-1c4f-415c-b0d9-2305695cd9e1 10014 127.0.0.1 10015 
-May 05 22:10:48.108 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LSR 1 0 udp-0cff8548-1c4f-415c-b0d9-2305695cd9e1 
-May 05 22:10:48.110 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:49.235 HYPERVISOR: exec_cmd: nio create_udp udp-a8efc6d1-2f6b-47b2-a997-107e0b718c9e 10020 127.0.0.1 10021 
-May 05 22:10:49.239 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LSR 3 0 udp-a8efc6d1-2f6b-47b2-a997-107e0b718c9e 
-May 05 22:10:49.240 HYPERVISOR: exec_cmd: vm get_status LSR 
-May 05 22:10:50.825 HYPERVISOR: exec_cmd: nio create_udp udp-c6c678eb-b0b7-4203-b971-f29db278fbd5 10042 127.0.0.1 10043 
-May 05 22:10:50.829 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LSR 2 0 udp-c6c678eb-b0b7-4203-b971-f29db278fbd5 
-May 05 22:10:50.830 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:56:49.668 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 13 20:56:49.670 HYPERVISOR: Started on IP = localhost, TCP port = 53773.
+Jun 13 20:56:49.692 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 13 20:56:49.693 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
+Jun 13 20:56:49.700 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
+Jun 13 20:56:49.700 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3b4a6ffe-ee48-452f-994e-386961eb29dc 
+Jun 13 20:56:49.701 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3b4a6ffe-ee48-452f-994e-386961eb29dc
+Jun 13 20:56:49.701 HYPERVISOR: exec_cmd: vm create LSR 1 c7200 
+Jun 13 20:56:49.703 VM: VM LSR created.
+Jun 13 20:56:49.705 HYPERVISOR: exec_cmd: vm set_con_tcp_port LSR 5000 
+Jun 13 20:56:49.705 HYPERVISOR: exec_cmd: c7200 get_mac_addr LSR 
+Jun 13 20:56:49.705 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:56:49.706 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 0 0 C7200-IO-FE 
+Jun 13 20:56:49.707 HYPERVISOR: exec_cmd: vm set_disk0 LSR 0 
+Jun 13 20:56:49.708 HYPERVISOR: exec_cmd: vm set_exec_area LSR 64 
+Jun 13 20:56:49.709 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:56:49.709 HYPERVISOR: exec_cmd: vm set_idle_pc LSR 0x60210c60 
+Jun 13 20:56:49.711 HYPERVISOR: exec_cmd: vm set_ios LSR C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Jun 13 20:56:49.712 HYPERVISOR: exec_cmd: c7200 set_mac_addr LSR ca01.1ee4.0000 
+Jun 13 20:56:49.713 HYPERVISOR: exec_cmd: vm set_nvram LSR 512 
+Jun 13 20:56:49.714 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:56:49.715 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 1 0 PA-GE 
+Jun 13 20:56:49.716 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:56:49.716 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 2 0 PA-GE 
+Jun 13 20:56:49.717 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:56:49.717 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 3 0 PA-GE 
+Jun 13 20:56:49.718 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:56:49.718 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 4 0 PA-GE 
+Jun 13 20:56:49.719 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:56:49.719 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 5 0 PA-GE 
+Jun 13 20:56:49.720 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:56:49.721 HYPERVISOR: exec_cmd: vm slot_add_binding LSR 6 0 PA-GE 
+Jun 13 20:56:59.745 HYPERVISOR: exec_cmd: nio create_udp udp-230cea7c-978c-4e94-b41f-7d07a7f26b60 10014 127.0.0.1 10015 
+Jun 13 20:57:00.036 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LSR 1 0 udp-230cea7c-978c-4e94-b41f-7d07a7f26b60 
+Jun 13 20:57:00.037 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:57:00.925 HYPERVISOR: exec_cmd: nio create_udp udp-c72a0200-dc26-4c12-a6a8-42cd1515b3ab 10020 127.0.0.1 10021 
+Jun 13 20:57:00.935 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LSR 3 0 udp-c72a0200-dc26-4c12-a6a8-42cd1515b3ab 
+Jun 13 20:57:00.936 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 20:57:03.012 HYPERVISOR: exec_cmd: nio create_udp udp-c132e4ab-aa0f-470d-a1f8-8a997a2fe805 10039 127.0.0.1 10040 
+Jun 13 20:57:03.018 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LSR 2 0 udp-c132e4ab-aa0f-470d-a1f8-8a997a2fe805 
+Jun 13 20:57:03.019 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 21:48:06.293 HYPERVISOR: exec_cmd: vm set_ghost_status LSR 2 
+Jun 13 21:48:06.295 HYPERVISOR: exec_cmd: vm set_ghost_file LSR C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-256.ghost 
+Jun 13 21:48:06.296 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 21:48:06.305 HYPERVISOR: exec_cmd: vm set_config LSR configs\i1_startup-config.cfg 
+Jun 13 21:48:06.305 HYPERVISOR: exec_cmd: vm start LSR 
+Jun 13 21:48:36.944 HYPERVISOR: exec_cmd: vm extract_config LSR 
+Jun 13 21:49:06.939 HYPERVISOR: exec_cmd: vm extract_config LSR 
+Jun 13 22:30:05.457 HYPERVISOR: exec_cmd: vm get_status LSR 
+Jun 13 22:30:05.489 HYPERVISOR: exec_cmd: vm stop LSR 
+Jun 13 22:30:05.716 VM: VM LSR shutdown.
+Jun 13 22:30:05.725 HYPERVISOR: exec_cmd: vm extract_config LSR 

@@ -1,38 +1,49 @@
-May 05 22:10:37.118 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-May 05 22:10:37.118 HYPERVISOR: Started on IP = localhost, TCP port = 51955.
-May 05 22:10:37.580 HYPERVISOR: exec_cmd: hypervisor version 
-May 05 22:10:37.583 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
-May 05 22:10:37.583 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
-May 05 22:10:37.584 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\40cf1bd6-d0c2-44bb-9e00-a27ca7cd8eb4 
-May 05 22:10:37.584 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\40cf1bd6-d0c2-44bb-9e00-a27ca7cd8eb4
-May 05 22:10:37.585 HYPERVISOR: exec_cmd: vm create PE2 2 c7200 
-May 05 22:10:37.590 VM: VM PE2 created.
-May 05 22:10:37.592 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE2 5001 
-May 05 22:10:37.593 HYPERVISOR: exec_cmd: c7200 get_mac_addr PE2 
-May 05 22:10:37.594 HYPERVISOR: exec_cmd: vm get_status PE2 
-May 05 22:10:37.595 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 0 0 C7200-IO-FE 
-May 05 22:10:37.599 HYPERVISOR: exec_cmd: vm set_disk0 PE2 0 
-May 05 22:10:37.600 HYPERVISOR: exec_cmd: vm set_exec_area PE2 64 
-May 05 22:10:37.602 HYPERVISOR: exec_cmd: vm get_status PE2 
-May 05 22:10:37.603 HYPERVISOR: exec_cmd: vm set_idle_pc PE2 0x60210c60 
-May 05 22:10:37.605 HYPERVISOR: exec_cmd: vm set_ios PE2 C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
-May 05 22:10:37.607 HYPERVISOR: exec_cmd: c7200 set_mac_addr PE2 ca02.2978.0000 
-May 05 22:10:37.608 HYPERVISOR: exec_cmd: vm set_nvram PE2 512 
-May 05 22:10:37.609 HYPERVISOR: exec_cmd: vm get_status PE2 
-May 05 22:10:37.610 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 1 0 PA-GE 
-May 05 22:10:37.611 HYPERVISOR: exec_cmd: vm get_status PE2 
-May 05 22:10:37.611 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 2 0 PA-GE 
-May 05 22:10:37.614 HYPERVISOR: exec_cmd: vm get_status PE2 
-May 05 22:10:37.615 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 3 0 PA-GE 
-May 05 22:10:37.616 HYPERVISOR: exec_cmd: vm get_status PE2 
-May 05 22:10:37.616 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 4 0 PA-GE 
-May 05 22:10:37.618 HYPERVISOR: exec_cmd: vm get_status PE2 
-May 05 22:10:37.618 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 5 0 PA-GE 
-May 05 22:10:37.620 HYPERVISOR: exec_cmd: vm get_status PE2 
-May 05 22:10:37.620 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 6 0 PA-GE 
-May 05 22:10:46.498 HYPERVISOR: exec_cmd: nio create_udp udp-7d4688df-4ade-4b55-b613-f8a37f56b1ac 10008 127.0.0.1 10009 
-May 05 22:10:46.916 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 2 0 udp-7d4688df-4ade-4b55-b613-f8a37f56b1ac 
-May 05 22:10:46.917 HYPERVISOR: exec_cmd: vm get_status PE2 
-May 05 22:10:50.838 HYPERVISOR: exec_cmd: nio create_udp udp-7ba1e8f9-a893-4118-8992-57ff34c8dbe9 10044 127.0.0.1 10045 
-May 05 22:10:50.842 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 1 0 udp-7ba1e8f9-a893-4118-8992-57ff34c8dbe9 
-May 05 22:10:50.843 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:56:49.838 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 13 20:56:49.839 HYPERVISOR: Started on IP = localhost, TCP port = 53776.
+Jun 13 20:56:50.302 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 13 20:56:50.306 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
+Jun 13 20:56:50.307 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
+Jun 13 20:56:50.309 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\40cf1bd6-d0c2-44bb-9e00-a27ca7cd8eb4 
+Jun 13 20:56:50.312 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\40cf1bd6-d0c2-44bb-9e00-a27ca7cd8eb4
+Jun 13 20:56:50.313 HYPERVISOR: exec_cmd: vm create PE2 2 c7200 
+Jun 13 20:56:50.322 VM: VM PE2 created.
+Jun 13 20:56:50.325 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE2 5001 
+Jun 13 20:56:50.326 HYPERVISOR: exec_cmd: c7200 get_mac_addr PE2 
+Jun 13 20:56:50.326 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:56:50.327 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 0 0 C7200-IO-FE 
+Jun 13 20:56:50.328 HYPERVISOR: exec_cmd: vm set_disk0 PE2 0 
+Jun 13 20:56:50.330 HYPERVISOR: exec_cmd: vm set_exec_area PE2 64 
+Jun 13 20:56:50.331 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:56:50.332 HYPERVISOR: exec_cmd: vm set_idle_pc PE2 0x60210c60 
+Jun 13 20:56:50.335 HYPERVISOR: exec_cmd: vm set_ios PE2 C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Jun 13 20:56:50.337 HYPERVISOR: exec_cmd: c7200 set_mac_addr PE2 ca02.2978.0000 
+Jun 13 20:56:50.341 HYPERVISOR: exec_cmd: vm set_nvram PE2 512 
+Jun 13 20:56:50.343 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:56:50.344 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 1 0 PA-GE 
+Jun 13 20:56:50.345 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:56:50.346 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 2 0 PA-GE 
+Jun 13 20:56:50.347 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:56:50.347 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 3 0 PA-GE 
+Jun 13 20:56:50.349 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:56:50.350 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 4 0 PA-GE 
+Jun 13 20:56:50.351 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:56:50.353 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 5 0 PA-GE 
+Jun 13 20:56:50.355 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:56:50.355 HYPERVISOR: exec_cmd: vm slot_add_binding PE2 6 0 PA-GE 
+Jun 13 20:56:58.625 HYPERVISOR: exec_cmd: nio create_udp udp-df8cc5f7-3beb-4c25-ad14-45cb5d54fc3f 10008 127.0.0.1 10009 
+Jun 13 20:56:59.355 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 2 0 udp-df8cc5f7-3beb-4c25-ad14-45cb5d54fc3f 
+Jun 13 20:56:59.356 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 20:57:03.035 HYPERVISOR: exec_cmd: nio create_udp udp-e84bd150-f5bd-463c-8c02-f056113349b9 10041 127.0.0.1 10042 
+Jun 13 20:57:03.041 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 1 0 udp-e84bd150-f5bd-463c-8c02-f056113349b9 
+Jun 13 20:57:03.042 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 21:48:08.129 HYPERVISOR: exec_cmd: vm set_ghost_status PE2 2 
+Jun 13 21:48:08.132 HYPERVISOR: exec_cmd: vm set_ghost_file PE2 C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-256.ghost 
+Jun 13 21:48:08.133 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 21:48:08.141 HYPERVISOR: exec_cmd: vm set_config PE2 configs\i2_startup-config.cfg 
+Jun 13 21:48:08.142 HYPERVISOR: exec_cmd: vm start PE2 
+Jun 13 21:48:38.516 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Jun 13 21:49:08.558 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Jun 13 22:30:05.457 HYPERVISOR: exec_cmd: vm get_status PE2 
+Jun 13 22:30:05.495 HYPERVISOR: exec_cmd: vm stop PE2 
+Jun 13 22:30:05.722 VM: VM PE2 shutdown.
+Jun 13 22:30:05.748 HYPERVISOR: exec_cmd: vm extract_config PE2 

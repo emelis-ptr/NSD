@@ -22,8 +22,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"665.0000000000001\" height=\"195.4121165999934\"><ellipse cx=\"332\" rx=\"333\" cy=\"97\" ry=\"98\" fill=\"#f4ff74\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -430,
-                "y": -333,
+                "x": -446,
+                "y": -475,
                 "z": 0
             },
             {
@@ -31,8 +31,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"604.0000000000001\" height=\"355.00000000000006\"><ellipse cx=\"302\" rx=\"303\" cy=\"177\" ry=\"178\" fill=\"#a9aa7e\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -411,
-                "y": -16,
+                "x": -418,
+                "y": -155,
                 "z": 0
             },
             {
@@ -40,8 +40,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"297.9999999999998\" height=\"192.00000000000003\"><ellipse cx=\"148\" rx=\"149\" cy=\"96\" ry=\"97\" fill=\"#bef4b6\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -806,
-                "y": 143,
+                "x": -822,
+                "y": 0,
                 "z": 0
             },
             {
@@ -49,8 +49,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"238.00000000000023\" height=\"313.99999999999994\"><ellipse cx=\"119\" rx=\"120\" cy=\"156\" ry=\"157\" fill=\"#f67a84\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -953,
-                "y": -124,
+                "x": -969,
+                "y": -266,
                 "z": 0
             },
             {
@@ -58,8 +58,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"248.44186046511624\" height=\"177.23255813953494\"><ellipse cx=\"124\" rx=\"125\" cy=\"88\" ry=\"89\" fill=\"#feff7f\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -581,
-                "y": 450,
+                "x": -597,
+                "y": 307,
                 "z": -1
             },
             {
@@ -67,17 +67,17 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"198.6969694696176\" height=\"237.04761833308396\"><ellipse cx=\"99\" rx=\"100\" cy=\"118\" ry=\"119\" fill=\"#f67a84\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -24,
-                "y": 312,
+                "x": -40,
+                "y": 169,
                 "z": 0
             },
             {
                 "drawing_id": "6786bc51-89f9-4d97-a2b6-b76a12f10c29",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"138\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN-A:10.23.0.0/24\nSite1: spoke</text></svg>",
-                "x": -160,
-                "y": -374,
+                "svg": "<svg width=\"146\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN-A1:10.23.0.0/24\nSite1: spoke</text></svg>",
+                "x": -176,
+                "y": -516,
                 "z": 2
             },
             {
@@ -85,8 +85,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -302,
-                "y": -220,
+                "x": -318,
+                "y": -362,
                 "z": 2
             },
             {
@@ -94,8 +94,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.3</text></svg>",
-                "x": 100,
-                "y": -210,
+                "x": 83,
+                "y": -352,
                 "z": 2
             },
             {
@@ -103,8 +103,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -88,
-                "y": -181,
+                "x": -104,
+                "y": -323,
                 "z": 2
             },
             {
@@ -112,8 +112,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">100.0.22.0/30</text></svg>",
-                "x": -237,
-                "y": -84,
+                "x": -253,
+                "y": -226,
                 "z": 2
             },
             {
@@ -121,8 +121,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -100,
-                "y": -68,
+                "x": -116,
+                "y": -210,
                 "z": 2
             },
             {
@@ -130,8 +130,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -108,
-                "y": -93,
+                "x": -124,
+                "y": -235,
                 "z": 2
             },
             {
@@ -139,8 +139,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"68\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">AS100\n1.0.0.0/8</text></svg>",
-                "x": -341,
-                "y": 65,
+                "x": -357,
+                "y": -77,
                 "z": 2
             },
             {
@@ -148,8 +148,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">100.0.20.0/30</text></svg>",
-                "x": -106,
-                "y": 71,
+                "x": -122,
+                "y": -71,
                 "z": 2
             },
             {
@@ -157,8 +157,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -149,
-                "y": 25,
+                "x": -165,
+                "y": -117,
                 "z": 2
             },
             {
@@ -166,8 +166,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -154,
-                "y": 111,
+                "x": -170,
+                "y": -31,
                 "z": 2
             },
             {
@@ -175,8 +175,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"88\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">lo: 1.255.0.4</text></svg>",
-                "x": -78,
-                "y": 166,
+                "x": -94,
+                "y": 23,
                 "z": 2
             },
             {
@@ -184,8 +184,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -90,
-                "y": 228,
+                "x": -106,
+                "y": 85,
                 "z": 2
             },
             {
@@ -193,8 +193,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -198,
-                "y": 197,
+                "x": -214,
+                "y": 54,
                 "z": 2
             },
             {
@@ -202,8 +202,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">100.0.30.0/30</text></svg>",
-                "x": -13,
-                "y": 218,
+                "x": -29,
+                "y": 75,
                 "z": 2
             },
             {
@@ -211,8 +211,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">100.0.10.0/30</text></svg>",
-                "x": -309,
-                "y": 213,
+                "x": -325,
+                "y": 70,
                 "z": 2
             },
             {
@@ -220,8 +220,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"84\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">lo:1.255.0.2</text></svg>",
-                "x": -85,
-                "y": 1,
+                "x": -101,
+                "y": -141,
                 "z": 2
             },
             {
@@ -229,8 +229,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"84\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">lo:1.255.0.1</text></svg>",
-                "x": -252,
-                "y": 296,
+                "x": -268,
+                "y": 153,
                 "z": 2
             },
             {
@@ -238,8 +238,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -231,
-                "y": 256,
+                "x": -247,
+                "y": 113,
                 "z": 2
             },
             {
@@ -247,8 +247,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": 2,
-                "y": 268,
+                "x": -14,
+                "y": 125,
                 "z": 2
             },
             {
@@ -256,8 +256,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"68\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">AS200\n2.0.0.0/8</text></svg>",
-                "x": -611,
-                "y": 149,
+                "x": -627,
+                "y": 6,
                 "z": 2
             },
             {
@@ -265,8 +265,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -613,
-                "y": 266,
+                "x": -629,
+                "y": 123,
                 "z": 2
             },
             {
@@ -274,8 +274,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -741,
-                "y": 219,
+                "x": -757,
+                "y": 76,
                 "z": 2
             },
             {
@@ -283,8 +283,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"88\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">lo: 2.255.0.1</text></svg>",
-                "x": -565,
-                "y": 321,
+                "x": -581,
+                "y": 178,
                 "z": 2
             },
             {
@@ -292,8 +292,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -790,
-                "y": 99,
+                "x": -806,
+                "y": -43,
                 "z": 2
             },
             {
@@ -301,8 +301,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -819,
-                "y": 27,
+                "x": -835,
+                "y": -115,
                 "z": 2
             },
             {
@@ -310,17 +310,17 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"168\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN-B1:192.168.17.0/24</text></svg>",
-                "x": -914,
-                "y": -149,
+                "x": -930,
+                "y": -291,
                 "z": 2
             },
             {
                 "drawing_id": "649247e7-6e63-432d-8e1a-e489e0d607ac",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"144\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN-13:10.23.1.0/24\nSite3: spoke</text></svg>",
-                "x": -526,
-                "y": 634,
+                "svg": "<svg width=\"146\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN-A3:10.23.1.0/24\nSite3: spoke</text></svg>",
+                "x": -542,
+                "y": 491,
                 "z": 2
             },
             {
@@ -328,8 +328,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -461,
-                "y": 560,
+                "x": -490,
+                "y": 411,
                 "z": 2
             },
             {
@@ -337,8 +337,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -395,
-                "y": 534,
+                "x": -411,
+                "y": 387,
                 "z": 2
             },
             {
@@ -346,8 +346,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"172\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN-B2: 192.168.16.0/24</text></svg>",
-                "x": -10,
-                "y": 553,
+                "x": -26,
+                "y": 410,
                 "z": 2
             },
             {
@@ -355,8 +355,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">100.0.12.0/30</text></svg>",
-                "x": -456,
-                "y": 265,
+                "x": -472,
+                "y": 122,
                 "z": 2
             },
             {
@@ -364,8 +364,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -363,
-                "y": 315,
+                "x": -379,
+                "y": 172,
                 "z": 2
             },
             {
@@ -373,8 +373,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -462,
-                "y": 310,
+                "x": -478,
+                "y": 167,
                 "z": 2
             },
             {
@@ -382,8 +382,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": -329,
-                "y": 431,
+                "x": -345,
+                "y": 288,
                 "z": 2
             },
             {
@@ -391,8 +391,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -285,
-                "y": 357,
+                "x": -301,
+                "y": 214,
                 "z": 2
             },
             {
@@ -400,8 +400,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">100.0.14.0/30</text></svg>",
-                "x": -326,
-                "y": 395,
+                "x": -342,
+                "y": 252,
                 "z": 2
             },
             {
@@ -409,8 +409,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": 93,
-                "y": 422,
+                "x": 76,
+                "y": 279,
                 "z": 2
             },
             {
@@ -418,8 +418,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": 91,
-                "y": 362,
+                "x": 74,
+                "y": 219,
                 "z": 2
             },
             {
@@ -427,8 +427,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": 142,
-                "y": 303,
+                "x": 125,
+                "y": 160,
                 "z": 2
             },
             {
@@ -436,8 +436,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": 238,
-                "y": 221,
+                "x": 221,
+                "y": 78,
                 "z": 2
             },
             {
@@ -445,8 +445,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">100.0.32.0/30</text></svg>",
-                "x": 164,
-                "y": 259,
+                "x": 147,
+                "y": 116,
                 "z": 2
             },
             {
@@ -454,8 +454,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"154\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN-A2:10.123.0.0/16\nSite2: hub</text></svg>",
-                "x": 564,
-                "y": -199,
+                "x": 547,
+                "y": -341,
                 "z": 2
             },
             {
@@ -463,8 +463,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": 358,
-                "y": 203,
+                "x": 341,
+                "y": 60,
                 "z": 2
             },
             {
@@ -472,26 +472,26 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"63\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">vlan100 \n.254</text></svg>",
-                "x": 397,
-                "y": 217,
+                "x": 362,
+                "y": 66,
                 "z": 2
             },
             {
                 "drawing_id": "bd4a91f0-dc9b-42f9-951b-54bef5b42743",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.0.1/16</text></svg>",
-                "x": 314,
-                "y": 490,
+                "svg": "<svg width=\"108\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.10.1/16</text></svg>",
+                "x": 297,
+                "y": 347,
                 "z": 2
             },
             {
                 "drawing_id": "fa8d86d7-9d80-424f-ade5-232584ea3eca",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"116\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">vlan10:\n10.123.0.254/16</text></svg>",
-                "x": 313,
-                "y": 269,
+                "svg": "<svg width=\"124\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">vlan10:\n10.123.10.254/16</text></svg>",
+                "x": 296,
+                "y": 126,
                 "z": 2
             },
             {
@@ -499,8 +499,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"124\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">vlan20:\n10.123.20.254/24</text></svg>",
-                "x": 547,
-                "y": 294,
+                "x": 530,
+                "y": 151,
                 "z": 2
             },
             {
@@ -508,8 +508,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"76\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.1.1</text></svg>",
-                "x": 536,
-                "y": 195,
+                "x": 519,
+                "y": 52,
                 "z": 2
             },
             {
@@ -517,8 +517,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": 472,
-                "y": 115,
+                "x": 455,
+                "y": -27,
                 "z": 2
             },
             {
@@ -526,8 +526,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": 472,
-                "y": -34,
+                "x": 455,
+                "y": -176,
                 "z": 2
             },
             {
@@ -535,8 +535,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"92\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.1.0/30</text></svg>",
-                "x": 399,
-                "y": 66,
+                "x": 382,
+                "y": -76,
                 "z": 2
             },
             {
@@ -544,8 +544,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"76\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.3.3</text></svg>",
-                "x": 386,
-                "y": -116,
+                "x": 369,
+                "y": -258,
                 "z": 2
             },
             {
@@ -553,8 +553,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"92\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.20.1.0/30</text></svg>",
-                "x": 532,
-                "y": -9,
+                "x": 515,
+                "y": -151,
                 "z": 2
             },
             {
@@ -562,8 +562,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": 559,
-                "y": -78,
+                "x": 542,
+                "y": -220,
                 "z": 2
             },
             {
@@ -571,8 +571,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": 551,
-                "y": 116,
+                "x": 534,
+                "y": -26,
                 "z": 2
             },
             {
@@ -580,8 +580,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"92\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.2.0/30</text></svg>",
-                "x": 699,
-                "y": -14,
+                "x": 682,
+                "y": -156,
                 "z": 2
             },
             {
@@ -589,8 +589,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": 829,
-                "y": -53,
+                "x": 812,
+                "y": -195,
                 "z": 2
             },
             {
@@ -598,8 +598,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"76\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.4.4</text></svg>",
-                "x": 856,
-                "y": -135,
+                "x": 839,
+                "y": -277,
                 "z": 2
             },
             {
@@ -607,8 +607,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": 927,
-                "y": -8,
+                "x": 910,
+                "y": -150,
                 "z": 2
             },
             {
@@ -616,8 +616,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"92\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.20.2.0/30</text></svg>",
-                "x": 798,
-                "y": 25,
+                "x": 781,
+                "y": -117,
                 "z": 2
             },
             {
@@ -625,8 +625,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": 868,
-                "y": 111,
+                "x": 851,
+                "y": -31,
                 "z": 2
             },
             {
@@ -634,8 +634,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": 776,
-                "y": 146,
+                "x": 759,
+                "y": 3,
                 "z": 2
             },
             {
@@ -643,17 +643,17 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"124\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">vlan20:\n10.123.20.254/24</text></svg>",
-                "x": 862,
-                "y": 274,
+                "x": 845,
+                "y": 131,
                 "z": 2
             },
             {
                 "drawing_id": "be5b5369-b9a5-46a7-8d99-66f6eeaa24a0",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"116\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">vlan10:\n10.123.0.254/24</text></svg>",
-                "x": 677,
-                "y": 260,
+                "svg": "<svg width=\"124\" height=\"40\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">vlan10:\n10.123.10.254/24</text></svg>",
+                "x": 660,
+                "y": 117,
                 "z": 2
             },
             {
@@ -661,17 +661,17 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"108\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.20.1/16</text></svg>",
-                "x": 528,
-                "y": 493,
+                "x": 511,
+                "y": 350,
                 "z": 2
             },
             {
                 "drawing_id": "216cd61a-6965-4e81-a8a7-a0dbf1f0b5bc",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.0.2/16</text></svg>",
-                "x": 682,
-                "y": 494,
+                "svg": "<svg width=\"108\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.10.2/16</text></svg>",
+                "x": 665,
+                "y": 351,
                 "z": 2
             },
             {
@@ -679,8 +679,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"108\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.20.2/16</text></svg>",
-                "x": 835,
-                "y": 494,
+                "x": 818,
+                "y": 351,
                 "z": 2
             },
             {
@@ -688,8 +688,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"76\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.123.2.2</text></svg>",
-                "x": 879,
-                "y": 184,
+                "x": 862,
+                "y": 41,
                 "z": 2
             },
             {
@@ -697,8 +697,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"84\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">lo:1.255.0.3</text></svg>",
-                "x": -60,
-                "y": 299,
+                "x": -76,
+                "y": 156,
                 "z": 2
             },
             {
@@ -706,8 +706,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"715\" height=\"784\"><rect width=\"715\" height=\"784\" fill=\"#feff7f\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": 299,
-                "y": -229,
+                "x": 281,
+                "y": -370,
                 "z": 0
             }
         ],
@@ -899,38 +899,6 @@
                             "y": 50
                         },
                         "node_id": "3b4a6ffe-ee48-452f-994e-386961eb29dc",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "56db5a4e-faa8-4c90-856e-ba5dece68879",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 3,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "g3/0",
-                            "x": 30,
-                            "y": 61
-                        },
-                        "node_id": "b8124295-aa07-45bd-ad9b-1e8bb41cb363",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth0",
-                            "x": 47,
-                            "y": -18
-                        },
-                        "node_id": "1b7f91b4-7575-4eb9-8c36-84999833bbe9",
                         "port_number": 0
                     }
                 ],
@@ -1386,31 +1354,31 @@
             },
             {
                 "filters": {},
-                "link_id": "f1f79b8f-3b9c-4c5a-af6f-871c877ac304",
+                "link_id": "016792e6-3bad-4ecd-a734-9ab92444be3e",
                 "link_style": {},
                 "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 72,
+                            "y": 31
+                        },
+                        "node_id": "b57ad75f-741a-45a7-bbac-a1d9f04e83df",
+                        "port_number": 0
+                    },
                     {
                         "adapter_number": 5,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "swp5",
-                            "x": -45,
-                            "y": 29
+                            "x": -42,
+                            "y": 28
                         },
                         "node_id": "0d4da262-728a-493f-a8db-f30a6aaab3c3",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth2",
-                            "x": 72,
-                            "y": 31
-                        },
-                        "node_id": "b57ad75f-741a-45a7-bbac-a1d9f04e83df",
                         "port_number": 0
                     }
                 ],
@@ -1418,15 +1386,15 @@
             },
             {
                 "filters": {},
-                "link_id": "0150ae42-7011-48e1-b157-63c953ad949a",
+                "link_id": "d9b79881-5731-48a1-a56e-5ac5b2605145",
                 "link_style": {},
                 "nodes": [
                     {
-                        "adapter_number": 1,
+                        "adapter_number": 0,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth1",
+                            "text": "eth0",
                             "x": 69,
                             "y": 13
                         },
@@ -1434,15 +1402,47 @@
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
+                        "adapter_number": 0,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth2",
+                            "text": "eth0",
                             "x": -4,
                             "y": 45
                         },
                         "node_id": "e748c31c-2ee0-4226-9507-153f6e321fab",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "60879806-4589-45fc-9351-451b0d978625",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "g3/0",
+                            "x": 30,
+                            "y": 61
+                        },
+                        "node_id": "b8124295-aa07-45bd-ad9b-1e8bb41cb363",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 49,
+                            "y": -17
+                        },
+                        "node_id": "9f515270-e07d-49da-aa0b-4c426f267022",
                         "port_number": 0
                     }
                 ],
@@ -1515,8 +1515,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "cdff0e0e-3934-431d-be30-39d08003263f",
                 "width": 66,
-                "x": -151,
-                "y": 161,
+                "x": -167,
+                "y": 18,
                 "z": 1
             },
             {
@@ -1584,8 +1584,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "cdff0e0e-3934-431d-be30-39d08003263f",
                 "width": 66,
-                "x": -148,
-                "y": -35,
+                "x": -164,
+                "y": -177,
                 "z": 1
             },
             {
@@ -1653,8 +1653,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "cdff0e0e-3934-431d-be30-39d08003263f",
                 "width": 66,
-                "x": -324,
-                "y": 275,
+                "x": -340,
+                "y": 132,
                 "z": 1
             },
             {
@@ -1722,8 +1722,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "cdff0e0e-3934-431d-be30-39d08003263f",
                 "width": 66,
-                "x": 50,
-                "y": 282,
+                "x": 33,
+                "y": 139,
                 "z": 1
             },
             {
@@ -1791,8 +1791,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "cdff0e0e-3934-431d-be30-39d08003263f",
                 "width": 66,
-                "x": -563,
-                "y": 272,
+                "x": -579,
+                "y": 129,
                 "z": 1
             },
             {
@@ -1822,7 +1822,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "70627e1c89e1cf3b412b6196acfdb3813b835a68438e9f0a26e6d12807e29838",
+                    "container_id": "7d8cb1f279bf9094a734accdecd4b997c6608fd037dcb7087c36a951f1b7701a",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -1833,8 +1833,8 @@
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "45a4bf08-2df4-4a69-8b4d-83f41e13d76c",
                 "width": 65,
-                "x": -395,
-                "y": 457,
+                "x": -411,
+                "y": 314,
                 "z": 1
             },
             {
@@ -1864,7 +1864,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "ba2f2dfd006593830b8a02be2d91c369e32832666e866fac67a71882859bcdc8",
+                    "container_id": "f2111bb6774dde05e6e9033a52ec0f1f8c69f3635e591ea46200ddc43c507472",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -1875,8 +1875,8 @@
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "45a4bf08-2df4-4a69-8b4d-83f41e13d76c",
                 "width": 65,
-                "x": 277,
-                "y": 159,
+                "x": 260,
+                "y": 16,
                 "z": 1
             },
             {
@@ -1955,8 +1955,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": -142,
-                "y": -276,
+                "x": -158,
+                "y": -418,
                 "z": 1
             },
             {
@@ -1986,7 +1986,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "ad4ed5a65392f1048aa94d64b5c66f8a3d7f71fa4cfe27fda1690546666ac3ca",
+                    "container_id": "dcc2415185b0105ab170d626ce27d8bac31b2b69d19c758989e0458f04a99848",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -1997,8 +1997,8 @@
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "45bad876-f729-43b7-8559-2e624b7354fa",
                 "width": 65,
-                "x": -878,
-                "y": -54,
+                "x": -894,
+                "y": -196,
                 "z": 1
             },
             {
@@ -2028,7 +2028,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "93831db4e4d5ac6b815828e5fb732c2cc18ba37b981e81c574efb4b7f25272cc",
+                    "container_id": "729b8439fcc48062050ce4dba36ebc983149c3ed82bf6a82dd3c0f2950fe3d43",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -2039,8 +2039,8 @@
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "45a4bf08-2df4-4a69-8b4d-83f41e13d76c",
                 "width": 65,
-                "x": 325,
-                "y": 411,
+                "x": 308,
+                "y": 268,
                 "z": 1
             },
             {
@@ -2070,7 +2070,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "3ee7daef6d64f6f8db11802dcb9a35102761f880bff71f585f1925fe09938f7a",
+                    "container_id": "d35a08a50567f03104214c0bce3d8ccad0b4d04775ed4a1999c50c55fae01520",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -2081,8 +2081,8 @@
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "45a4bf08-2df4-4a69-8b4d-83f41e13d76c",
                 "width": 65,
-                "x": 553,
-                "y": 418,
+                "x": 536,
+                "y": 275,
                 "z": 1
             },
             {
@@ -2112,7 +2112,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "f6a5d392eee92b51ff04c9272f345c748fe7b598ba29cd3cab5515f3407833ac",
+                    "container_id": "0249d5be35619b59301720258cef5c03d0518e16a84b799a7304a3da89b2d2a5",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -2123,8 +2123,8 @@
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "45a4bf08-2df4-4a69-8b4d-83f41e13d76c",
                 "width": 65,
-                "x": 709,
-                "y": 415,
+                "x": 692,
+                "y": 272,
                 "z": 1
             },
             {
@@ -2154,7 +2154,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "4386ff8e905ca784b63cd93fed6dd2c79baac02bea1211edc8dccfc5907c3223",
+                    "container_id": "34cac06769e3dec86d420b68a04b034216aa34615620df811940548f9212b9a3",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -2165,8 +2165,8 @@
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "45a4bf08-2df4-4a69-8b4d-83f41e13d76c",
                 "width": 65,
-                "x": 864,
-                "y": 420,
+                "x": 847,
+                "y": 277,
                 "z": 1
             },
             {
@@ -2204,8 +2204,8 @@
                 "symbol": ":/symbols/vbox_guest.svg",
                 "template_id": "fabe0785-311f-40d3-975f-3b1e17ead4cf",
                 "width": 65,
-                "x": -143,
-                "y": -172,
+                "x": -159,
+                "y": -314,
                 "z": 1
             },
             {
@@ -2243,8 +2243,8 @@
                 "symbol": ":/symbols/vbox_guest.svg",
                 "template_id": "d26d07b4-b989-4dd0-9648-047b0e2599f6",
                 "width": 65,
-                "x": -382,
-                "y": -262,
+                "x": -398,
+                "y": -404,
                 "z": 1
             },
             {
@@ -2274,7 +2274,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "bfda97f8321b1995dcf9adbf05b66528d2c5bbd2e117a23785b434609ea59f0a",
+                    "container_id": "9a7c22f788399e2b712ce09a2b156e6a70a10b3480b38c093137352edb7dad35",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -2285,51 +2285,9 @@
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "1164b4e9-e9f9-40fb-8fe9-1d4aaab4bd71",
                 "width": 65,
-                "x": -809,
-                "y": 151,
-                "z": 1
-            },
-            {
-                "compute_id": "vm",
-                "console": 5010,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "hostB2",
-                    "x": -26,
-                    "y": -21
-                },
-                "locked": false,
-                "name": "hostB2",
-                "node_id": "1b7f91b4-7575-4eb9-8c36-84999833bbe9",
-                "node_type": "docker",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "adapters": 4,
-                    "aux": 5011,
-                    "console_http_path": "/",
-                    "console_http_port": 80,
-                    "console_resolution": "1024x768",
-                    "container_id": "c0b062b62cd05bb15504550e3fd149002d3722db15272c08d48432b28fc960b0",
-                    "environment": null,
-                    "extra_hosts": null,
-                    "extra_volumes": [],
-                    "image": "openvpn:latest",
-                    "start_command": null,
-                    "usage": ""
-                },
-                "symbol": ":/symbols/docker_guest.svg",
-                "template_id": "1164b4e9-e9f9-40fb-8fe9-1d4aaab4bd71",
-                "width": 65,
-                "x": 42,
-                "y": 458,
-                "z": 1
+                "x": -825,
+                "y": 8,
+                "z": 2
             },
             {
                 "compute_id": "local",
@@ -2366,8 +2324,8 @@
                 "symbol": ":/symbols/vbox_guest.svg",
                 "template_id": "56fae548-2275-4c15-95d5-7f86d092f682",
                 "width": 65,
-                "x": 124,
-                "y": -250,
+                "x": 107,
+                "y": -392,
                 "z": 1
             },
             {
@@ -2405,8 +2363,8 @@
                 "symbol": ":/symbols/affinity/circle/blue/switch.svg",
                 "template_id": "efdc0a2b-2972-4050-acdb-8718a3dbb71c",
                 "width": 60,
-                "x": 473,
-                "y": 167,
+                "x": 456,
+                "y": 24,
                 "z": 1
             },
             {
@@ -2444,8 +2402,8 @@
                 "symbol": ":/symbols/affinity/circle/blue/switch.svg",
                 "template_id": "ab07bd43-7e14-4eed-95ee-6999881434d3",
                 "width": 60,
-                "x": 808,
-                "y": 162,
+                "x": 791,
+                "y": 19,
                 "z": 1
             },
             {
@@ -2483,8 +2441,8 @@
                 "symbol": ":/symbols/affinity/circle/blue/switch.svg",
                 "template_id": "814d6a7c-8249-489e-8ee4-81aeedd619ca",
                 "width": 60,
-                "x": 483,
-                "y": -106,
+                "x": 466,
+                "y": -248,
                 "z": 1
             },
             {
@@ -2522,8 +2480,8 @@
                 "symbol": ":/symbols/affinity/circle/blue/switch.svg",
                 "template_id": "2d1d5a11-e2ef-4f51-93f2-abfa757e5317",
                 "width": 60,
-                "x": 873,
-                "y": -88,
+                "x": 856,
+                "y": -230,
                 "z": 1
             },
             {
@@ -2553,7 +2511,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "744fc4335627dbb9c4973f780c888609f09308ac24b2f71f8283befcf9f8b9dd",
+                    "container_id": "6365cd4c913374a0d3ef9cf774ea6f9006be0a838a9aa6d13f7b677b07af15ae",
                     "environment": "",
                     "extra_hosts": "",
                     "extra_volumes": [],
@@ -2564,9 +2522,51 @@
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "dffde872-7851-4e05-9f7c-3d5dde042774",
                 "width": 65,
-                "x": -543,
-                "y": 523,
+                "x": -559,
+                "y": 380,
                 "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5010,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "hostB2",
+                    "x": -46,
+                    "y": -17
+                },
+                "locked": false,
+                "name": "hostB2",
+                "node_id": "9f515270-e07d-49da-aa0b-4c426f267022",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 4,
+                    "aux": 5011,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "3665da48ed83c8414c294e61060940da1c2997f924c94be6aa438963a47453de",
+                    "environment": null,
+                    "extra_hosts": null,
+                    "extra_volumes": [],
+                    "image": "openvpn:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/docker_guest.svg",
+                "template_id": "1164b4e9-e9f9-40fb-8fe9-1d4aaab4bd71",
+                "width": 65,
+                "x": 23,
+                "y": 314,
+                "z": 2
             }
         ]
     },

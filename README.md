@@ -85,33 +85,27 @@ Le interfacce IP sono state configurate come segue:
   **OSPF** permette ai PE di apprendere le rotte per l’instradamento interno ad AS100 utilizzando le interfacce
   di loopback (stabili), rimanendo UP a prescindere dallo stato dei link fisici.
 
-  > >
-  >> **OSPF** è un protocollo IGP (Interior gateway protocols) utilizzato per instradare i pacchetti IP all'interno di
-  un
-  singolo sistema autonomo (AS).
-  >>
-  >> E’ un protocollo di routing di tipo link state su reti IP.
-  >>
-  >> Utilizza il flooding (inondazione) di informazioni riguardo allo stato dei collegamenti e utilizza l'algoritmo di
-  Dijkstra per la determinazione del percorso più breve a costo minimo INTRA-AS (cioè all'interno di uno stesso sistema
-  autonomo).
-
+> >
+>> **OSPF** è un protocollo IGP (Interior gateway protocols) utilizzato per instradare i pacchetti IP all'interno di un
+> > singolo sistema autonomo (AS).>>>> E’ un protocollo di routing di tipo link state su reti IP.>>>> Utilizza il flooding (
+> > inondazione) di informazioni riguardo allo stato dei collegamenti e utilizza l'algoritmo di Dijkstra per la
+> > determinazione del percorso più breve a costo minimo INTRA-AS (cioè all'interno di uno stesso sistema autonomo).
 
 * Configurazione LDP:
   ```shell
      mpls ldp autoconfig
   ```
-  > > **LDP** è un protocollo utilizzato nelle reti MPLS per distribuire etichette (labels) tra router.
-  >>
-  >> I router LDP scoprono automaticamente i loro peer LDP adiacenti sulla stessa rete fisica. Questo processo avviene
-  tramite pacchetti di scoperta inviati a un indirizzo multicast riservato.
-  >>
-  >> Una volta scoperti i peer, i router stabiliscono una sessione TCP per lo scambio delle informazioni LDP. Questa
-  sessione viene utilizzata per distribuire le etichette e altre informazioni di controllo.
-  >>
-  >> I router utilizzano LDP per assegnare etichette a prefissi di rete IP e scambiare queste informazioni con i peer.
-  Le
-  etichette vengono utilizzate per creare una Label Switched Path (LSP) attraverso la rete MPLS.
+> > **LDP** è un protocollo utilizzato nelle reti MPLS per distribuire etichette (labels) tra router.
+>>
+>> I router LDP scoprono automaticamente i loro peer LDP adiacenti sulla stessa rete fisica. Questo processo avviene
+tramite pacchetti di scoperta inviati a un indirizzo multicast riservato.
+>>
+>> Una volta scoperti i peer, i router stabiliscono una sessione TCP per lo scambio delle informazioni LDP. Questa
+sessione viene utilizzata per distribuire le etichette e altre informazioni di controllo.
+>>
+>> I router utilizzano LDP per assegnare etichette a prefissi di rete IP e scambiare queste informazioni con i peer.
+Le
+etichette vengono utilizzate per creare una Label Switched Path (LSP) attraverso la rete MPLS.
 
 
 * Per fare la corretta pubblicizzazione del prefisso 1.0.0.0/8 è stata aggiunta anche una rotta statica:
@@ -238,7 +232,7 @@ tramite questi indirizzi, appresi con OSPF.
      ip route vrf vpnA 10.23.1.0 255.255.255.0 100.0.14.1
      ip route 1.0.0.0 255.0.0.0 Null0
   ```
-  > **ip vrf forwarding vpnA**: abilita il forwarding dei pacchetti per la BGP/MPLS VPN sull’interfaccia del PE connessa
+> **ip vrf forwarding vpnA**: abilita il forwarding dei pacchetti per la BGP/MPLS VPN sull’interfaccia del PE connessa
   al CE.
 
 ## AS200

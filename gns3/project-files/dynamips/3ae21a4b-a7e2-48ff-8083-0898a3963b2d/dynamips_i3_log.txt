@@ -1,0 +1,54 @@
+Mar 14 21:18:37.473 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 14 21:18:37.474 HYPERVISOR: Started on IP = localhost, TCP port = 62511.
+Mar 14 21:18:37.932 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 14 21:18:37.935 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
+Mar 14 21:18:37.936 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
+Mar 14 21:18:37.938 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3ae21a4b-a7e2-48ff-8083-0898a3963b2d 
+Mar 14 21:18:37.942 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\3ae21a4b-a7e2-48ff-8083-0898a3963b2d
+Mar 14 21:18:37.943 HYPERVISOR: exec_cmd: vm create PE1 3 c7200 
+Mar 14 21:18:37.951 VM: VM PE1 created.
+Mar 14 21:18:37.953 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE1 5002 
+Mar 14 21:18:37.954 HYPERVISOR: exec_cmd: c7200 get_mac_addr PE1 
+Mar 14 21:18:37.955 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:18:37.956 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 0 0 C7200-IO-FE 
+Mar 14 21:18:37.958 HYPERVISOR: exec_cmd: vm set_disk0 PE1 0 
+Mar 14 21:18:37.959 HYPERVISOR: exec_cmd: vm set_exec_area PE1 64 
+Mar 14 21:18:37.960 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:18:37.960 HYPERVISOR: exec_cmd: vm set_idle_pc PE1 0x60210c60 
+Mar 14 21:18:37.964 HYPERVISOR: exec_cmd: vm set_ios PE1 C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Mar 14 21:18:37.965 HYPERVISOR: exec_cmd: c7200 set_mac_addr PE1 ca03.07cc.0000 
+Mar 14 21:18:37.967 HYPERVISOR: exec_cmd: vm set_nvram PE1 512 
+Mar 14 21:18:37.969 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:18:37.969 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 1 0 PA-GE 
+Mar 14 21:18:37.971 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:18:37.972 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 2 0 PA-GE 
+Mar 14 21:18:37.974 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:18:37.975 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 3 0 PA-GE 
+Mar 14 21:18:37.977 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:18:37.978 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 4 0 PA-GE 
+Mar 14 21:18:37.979 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:18:37.979 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 5 0 PA-GE 
+Mar 14 21:18:37.980 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:18:37.981 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 6 0 PA-GE 
+Mar 14 21:19:26.112 HYPERVISOR: exec_cmd: nio create_udp udp-13d663e3-e972-4f10-b90e-463aed838267 10014 127.0.0.1 10015 
+Mar 14 21:19:26.380 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE1 2 0 udp-13d663e3-e972-4f10-b90e-463aed838267 
+Mar 14 21:19:26.382 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:19:27.116 HYPERVISOR: exec_cmd: nio create_udp udp-77d88d2c-36a8-45e2-bea4-f98c1f2ea3a7 10019 127.0.0.1 10020 
+Mar 14 21:19:27.120 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE1 3 0 udp-77d88d2c-36a8-45e2-bea4-f98c1f2ea3a7 
+Mar 14 21:19:27.121 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:19:27.231 HYPERVISOR: exec_cmd: nio create_udp udp-ea0135a8-01a0-4028-af81-2ce1b6eaaa27 10025 127.0.0.1 10026 
+Mar 14 21:19:27.235 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE1 1 0 udp-ea0135a8-01a0-4028-af81-2ce1b6eaaa27 
+Mar 14 21:19:27.235 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:19:41.013 HYPERVISOR: exec_cmd: vm set_ghost_status PE1 2 
+Mar 14 21:19:41.014 HYPERVISOR: exec_cmd: vm set_ghost_file PE1 C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-256.ghost 
+Mar 14 21:19:41.015 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 21:19:41.019 HYPERVISOR: exec_cmd: vm set_config PE1 configs\i3_startup-config.cfg 
+Mar 14 21:19:41.020 HYPERVISOR: exec_cmd: vm start PE1 
+Mar 14 21:20:11.358 HYPERVISOR: exec_cmd: vm extract_config PE1 
+Mar 14 22:22:08.552 HYPERVISOR: exec_cmd: vm get_status PE1 
+Mar 14 22:22:08.593 HYPERVISOR: exec_cmd: vm stop PE1 
+Mar 14 22:22:08.755 VM: VM PE1 shutdown.
+Mar 14 22:22:08.760 HYPERVISOR: exec_cmd: vm extract_config PE1 
+Mar 14 22:22:19.565 HYPERVISOR: Stopped.
+Mar 14 22:22:19.565 VM: VM PE1 destroyed.
+Mar 14 22:22:19.569 GENERAL: reset done.

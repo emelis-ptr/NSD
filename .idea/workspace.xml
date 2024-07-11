@@ -4,7 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96a1254-3e6b-4038-a284-765527d048fa" name="Changes" comment="Add gns3 files" />
+    <list default="true" id="b96a1254-3e6b-4038-a284-765527d048fa" name="Changes" comment="Add gns3 files">
+      <change afterPath="$PROJECT_DIR$/docker/mac/example.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/mac/home.nsduser.example.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/36163ffa-62a5-40ef-a7ae-413e3657512a/dynamips_i5_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/36163ffa-62a5-40ef-a7ae-413e3657512a/dynamips_i5_stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/3ae21a4b-a7e2-48ff-8083-0898a3963b2d/dynamips_i3_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/3ae21a4b-a7e2-48ff-8083-0898a3963b2d/dynamips_i3_stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/3b4a6ffe-ee48-452f-994e-386961eb29dc/dynamips_i1_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/3b4a6ffe-ee48-452f-994e-386961eb29dc/dynamips_i1_stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/40cf1bd6-d0c2-44bb-9e00-a27ca7cd8eb4/dynamips_i2_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/40cf1bd6-d0c2-44bb-9e00-a27ca7cd8eb4/dynamips_i2_stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presentazione/Network and System Defence.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presentazione/Network and System Defence.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mac/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mac/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mac/bin.ping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/openvpn/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/openvpn/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/openvpn/config/cred/ca_cred" beforeDir="false" afterPath="$PROJECT_DIR$/docker/openvpn/config/cred/ca_cred" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/openvpn/config/cred/hostB2_cred" beforeDir="false" afterPath="$PROJECT_DIR$/docker/openvpn/config/cred/hostB2_cred" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/openvpn/config/cred/server_cred" beforeDir="false" afterPath="$PROJECT_DIR$/docker/openvpn/config/cred/server_cred" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/openvpn/config/ovpn/server.ovpn" beforeDir="false" afterPath="$PROJECT_DIR$/docker/openvpn/config/ovpn/server.ovpn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/openvpn/copy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/openvpn/copy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/openvpn/script/HostB2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/openvpn/script/HostB2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/openvpn/script/ovpn-server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/openvpn/script/ovpn-server.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gns3/ProgettNSD.gns3" beforeDir="false" afterPath="$PROJECT_DIR$/gns3/ProgettNSD.gns3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gns3/project-files/dynamips/36163ffa-62a5-40ef-a7ae-413e3657512a/configs/i5_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/36163ffa-62a5-40ef-a7ae-413e3657512a/configs/i5_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gns3/project-files/dynamips/3ae21a4b-a7e2-48ff-8083-0898a3963b2d/configs/i3_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/3ae21a4b-a7e2-48ff-8083-0898a3963b2d/configs/i3_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gns3/project-files/dynamips/3b4a6ffe-ee48-452f-994e-386961eb29dc/configs/i1_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/3b4a6ffe-ee48-452f-994e-386961eb29dc/configs/i1_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gns3/project-files/dynamips/40cf1bd6-d0c2-44bb-9e00-a27ca7cd8eb4/configs/i2_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/40cf1bd6-d0c2-44bb-9e00-a27ca7cd8eb4/configs/i2_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gns3/project-files/dynamips/b8124295-aa07-45bd-ad9b-1e8bb41cb363/configs/i4_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gns3/project-files/dynamips/b8124295-aa07-45bd-ad9b-1e8bb41cb363/configs/i4_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/client-edge/CE-A1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/script/client-edge/CE-A1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/client-edge/CE-A2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/script/client-edge/CE-A2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/client-edge/CE-A3.sh" beforeDir="false" afterPath="$PROJECT_DIR$/script/client-edge/CE-A3.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/routers/LSR.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/script/routers/LSR.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/routers/PE1.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/script/routers/PE1.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/routers/PE2.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/script/routers/PE2.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/routers/PE3.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/script/routers/PE3.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/routers/RB1.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/script/routers/RB1.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topology.png" beforeDir="false" afterPath="$PROJECT_DIR$/topology.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +57,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2g46DcoJawReIGy7ZjktuJYKLla" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +92,14 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +114,20 @@
       <workItem from="1718123696139" duration="12620000" />
       <workItem from="1718175527512" duration="3468000" />
       <workItem from="1718225905080" duration="6424000" />
-      <workItem from="1718305057555" duration="6199000" />
+      <workItem from="1718305057555" duration="6955000" />
+      <workItem from="1718528683799" duration="8000" />
+      <workItem from="1718530156333" duration="568000" />
+      <workItem from="1718655934820" duration="2563000" />
+      <workItem from="1718693656979" duration="2170000" />
+      <workItem from="1718826988341" duration="8883000" />
+      <workItem from="1718870163663" duration="7889000" />
+      <workItem from="1719247356400" duration="11114000" />
+      <workItem from="1719775878992" duration="5604000" />
+      <workItem from="1719859310310" duration="132000" />
+      <workItem from="1719860191245" duration="9910000" />
+      <workItem from="1720119622141" duration="4665000" />
+      <workItem from="1720554542832" duration="2871000" />
+      <workItem from="1720725155650" duration="5581000" />
     </task>
     <task id="LOCAL-00001" summary="Progetto NSD">
       <created>1714944530387</created>
@@ -114,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718311339628</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add gns3 files">
+      <created>1718311612135</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718311612135</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

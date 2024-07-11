@@ -1,0 +1,54 @@
+Mar 14 21:18:38.684 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 14 21:18:38.685 HYPERVISOR: Started on IP = localhost, TCP port = 62517.
+Mar 14 21:18:39.138 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 14 21:18:39.138 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips 
+Mar 14 21:18:39.139 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips
+Mar 14 21:18:39.139 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\36163ffa-62a5-40ef-a7ae-413e3657512a 
+Mar 14 21:18:39.142 GENERAL: working_dir=C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\36163ffa-62a5-40ef-a7ae-413e3657512a
+Mar 14 21:18:39.142 HYPERVISOR: exec_cmd: vm create RB1 5 c7200 
+Mar 14 21:18:39.144 VM: VM RB1 created.
+Mar 14 21:18:39.144 HYPERVISOR: exec_cmd: vm set_con_tcp_port RB1 5004 
+Mar 14 21:18:39.145 HYPERVISOR: exec_cmd: c7200 get_mac_addr RB1 
+Mar 14 21:18:39.145 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:18:39.145 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 0 0 C7200-IO-FE 
+Mar 14 21:18:39.146 HYPERVISOR: exec_cmd: vm set_disk0 RB1 0 
+Mar 14 21:18:39.146 HYPERVISOR: exec_cmd: vm set_exec_area RB1 64 
+Mar 14 21:18:39.147 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:18:39.147 HYPERVISOR: exec_cmd: vm set_idle_pc RB1 0x60210c60 
+Mar 14 21:18:39.149 HYPERVISOR: exec_cmd: vm set_ios RB1 C:/Users/emeli/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Mar 14 21:18:39.150 HYPERVISOR: exec_cmd: c7200 set_mac_addr RB1 ca05.1bcc.0000 
+Mar 14 21:18:39.150 HYPERVISOR: exec_cmd: vm set_nvram RB1 512 
+Mar 14 21:18:39.150 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:18:39.151 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 1 0 PA-GE 
+Mar 14 21:18:39.151 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:18:39.152 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 2 0 PA-GE 
+Mar 14 21:18:39.152 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:18:39.152 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 3 0 PA-GE 
+Mar 14 21:18:39.153 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:18:39.153 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 4 0 PA-GE 
+Mar 14 21:18:39.154 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:18:39.154 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 5 0 PA-GE 
+Mar 14 21:18:39.155 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:18:39.155 HYPERVISOR: exec_cmd: vm slot_add_binding RB1 6 0 PA-GE 
+Mar 14 21:19:26.410 HYPERVISOR: exec_cmd: nio create_udp udp-3c728028-f282-480e-a6c5-5fbeb2cd24e0 10016 127.0.0.1 10017 
+Mar 14 21:19:26.674 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RB1 1 0 udp-3c728028-f282-480e-a6c5-5fbeb2cd24e0 
+Mar 14 21:19:26.677 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:19:28.212 HYPERVISOR: exec_cmd: nio create_udp udp-ae14530b-132b-4539-8b95-5c944892ec49 10041 127.0.0.1 10042 
+Mar 14 21:19:28.217 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RB1 2 0 udp-ae14530b-132b-4539-8b95-5c944892ec49 
+Mar 14 21:19:28.218 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:19:47.445 HYPERVISOR: exec_cmd: vm set_ghost_status RB1 2 
+Mar 14 21:19:47.446 HYPERVISOR: exec_cmd: vm set_ghost_file RB1 C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-256.ghost 
+Mar 14 21:19:47.446 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:19:47.450 HYPERVISOR: exec_cmd: vm set_config RB1 configs\i5_startup-config.cfg 
+Mar 14 21:19:47.450 HYPERVISOR: exec_cmd: vm start RB1 
+Mar 14 21:20:08.373 HYPERVISOR: exec_cmd: vm set_ghost_status RB1 2 
+Mar 14 21:20:08.374 HYPERVISOR: exec_cmd: vm set_ghost_file RB1 C:\Users\emeli\GNS3\projects\ProgettNSD\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-256.ghost 
+Mar 14 21:20:08.374 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 21:20:38.359 HYPERVISOR: exec_cmd: vm extract_config RB1 
+Mar 14 22:22:08.820 HYPERVISOR: exec_cmd: vm get_status RB1 
+Mar 14 22:22:08.823 HYPERVISOR: exec_cmd: vm stop RB1 
+Mar 14 22:22:08.984 VM: VM RB1 shutdown.
+Mar 14 22:22:08.986 HYPERVISOR: exec_cmd: vm extract_config RB1 
+Mar 14 22:22:19.565 HYPERVISOR: Stopped.
+Mar 14 22:22:19.567 VM: VM RB1 destroyed.
+Mar 14 22:22:19.583 GENERAL: reset done.

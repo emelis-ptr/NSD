@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ip addr add 100.0.32.1/30 dev eth1
-ip route add default via 100.0.32.2
+ip addr add 100.3.32.1/30 dev eth1
+ip route add default via 100.3.32.2
 
 sysctl -w net.ipv4.ip_forward=1
 

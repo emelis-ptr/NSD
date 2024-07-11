@@ -1,4 +1,5 @@
-docker cp 67cd2b76de8d:/gns3volumes/openvpn/keys/ca.crt - | docker cp - e250147671ea:/gns3volumes/openvpn/keys/
-docker cp 67cd2b76de8d:/gns3volumes/openvpn/keys/hostB2.crt - | docker cp - e250147671ea:/gns3volumes/openvpn/keys/
-docker cp 67cd2b76de8d:/gns3volumes/openvpn/keys/hostB2.key - | docker cp - e250147671ea:/gns3volumes/openvpn/keys/
-docker cp 67cd2b76de8d:/config/openssl.cnf - | docker cp - e250147671ea:/gns3volumes/openvpn/
+# Per copiare le chiavi generate dal container del server al container del client
+# docker container ls
+docker cp 17ea6b42d5ba:/gns3volumes/openvpn/keys/ca.crt - | docker cp - 7762e66f720b:/gns3volumes/openvpn/keys/
+docker cp 17ea6b42d5ba:/gns3volumes/openvpn/keys/hostB2.crt - | docker cp - 7762e66f720b:/gns3volumes/openvpn/keys/
+docker cp 17ea6b42d5ba:/gns3volumes/openvpn/keys/hostB2.key - | docker cp - 7762e66f720b:/gns3volumes/openvpn/keys/

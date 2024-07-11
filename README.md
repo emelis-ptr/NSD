@@ -22,9 +22,9 @@ Author: Melissa Petrolo
     - [Configuration host](#hosta1-hosta2): HostA1, HostA2
 * [LAN-A2](#lan-a2)
     - [EVPN/VCLAN](#evpnvxlan-configuration)
-        - [spine](#spines)
-        - [leaf](#leaves)
-        - [tenants](#tenants)
+        - [Spine](#spines)
+        - [Leaf](#leaves)
+        - [Tenants](#tenants)
     - [Configuration client-edge](#ce-a2):  CE-A2
     - [Firewall](#firewall-ce-a2): CE-A2
 * [LAN-A3](#lan-a3)
@@ -58,7 +58,7 @@ Le interfacce IP sono state configurate come segue:
   ```shell
    interface GigabitEthernet1/0
    mpls ip
-   ip address 100.0.10.1 255.255.255.252
+   ip address 192.168.14.1 255.255.255.252
    no shutdown
   ```
 
@@ -78,35 +78,38 @@ Le interfacce IP sono state configurate come segue:
     router ospf 1
     router-id 1.255.0.4
     network 1.255.0.4 0.0.0.0 area 0
-    network 100.0.10.0 0.0.0.3 area 0
-    network 100.0.20.0 0.0.0.3 area 0
-    network 100.0.30.0 0.0.0.3 area 0
+    network 192.168.14.0 0.0.0.3 area 0
+    network 192.168.24.0 0.0.0.3 area 0
+    network 192.168.34.0 0.0.0.3 area 0
   ```
   **OSPF** permette ai PE di apprendere le rotte per l’instradamento interno ad AS100 utilizzando le interfacce
   di loopback (stabili), rimanendo UP a prescindere dallo stato dei link fisici.
 
 > >
 >> **OSPF** è un protocollo IGP (Interior gateway protocols) utilizzato per instradare i pacchetti IP all'interno di un
-> > singolo sistema autonomo (AS).>>>> E’ un protocollo di routing di tipo link state su reti IP.>>>> Utilizza il flooding (
-> > inondazione) di informazioni riguardo allo stato dei collegamenti e utilizza l'algoritmo di Dijkstra per la
+> > singolo sistema autonomo (AS).
+>>
+> > E’ un protocollo di routing di tipo link state su reti IP.
+> Utilizza il flooding ( inondazione) di informazioni riguardo allo stato dei collegamenti e utilizza l'algoritmo di
+> > Dijkstra per la
 > > determinazione del percorso più breve a costo minimo INTRA-AS (cioè all'interno di uno stesso sistema autonomo).
 
 * Configurazione LDP:
   ```shell
      mpls ldp autoconfig
   ```
+
 > > **LDP** è un protocollo utilizzato nelle reti MPLS per distribuire etichette (labels) tra router.
 >>
->> I router LDP scoprono automaticamente i loro peer LDP adiacenti sulla stessa rete fisica. Questo processo avviene
-tramite pacchetti di scoperta inviati a un indirizzo multicast riservato.
+> > I router LDP scoprono automaticamente i loro peer LDP adiacenti sulla stessa rete fisica. Questo processo avviene
+> > tramite pacchetti di scoperta inviati a un indirizzo multicast riservato.
 >>
 >> Una volta scoperti i peer, i router stabiliscono una sessione TCP per lo scambio delle informazioni LDP. Questa
-sessione viene utilizzata per distribuire le etichette e altre informazioni di controllo.
+> > sessione viene utilizzata per distribuire le etichette e altre informazioni di controllo.
 >>
 >> I router utilizzano LDP per assegnare etichette a prefissi di rete IP e scambiare queste informazioni con i peer.
-Le
-etichette vengono utilizzate per creare una Label Switched Path (LSP) attraverso la rete MPLS.
-
+> > Le
+> > etichette vengono utilizzate per creare una Label Switched Path (LSP) attraverso la rete MPLS.
 
 * Per fare la corretta pubblicizzazione del prefisso 1.0.0.0/8 è stata aggiunta anche una rotta statica:
   ```shell
@@ -144,7 +147,7 @@ configurati allo stesso modo modificando gli indirizzi IP.
   ```shell
     interface GigabitEthernet1/0
     mpls ip
-    ip address 100.0.10.2 255.255.255.252
+    ip address 192.168.14.2 255.255.255.252
     no shutdown
     !
     interface GigabitEthernet2/0
@@ -153,7 +156,7 @@ configurati allo stesso modo modificando gli indirizzi IP.
     !
     interface GigabitEthernet3/0
     ip vrf forwarding vpnA
-    ip address 100.0.14.2 255.255.255.252
+    ip address 100.1.14.2 255.255.255.252
     no shutdown
    ```
 * configurazioni OSPF con MPLS LDP:
@@ -161,7 +164,7 @@ configurati allo stesso modo modificando gli indirizzi IP.
       router ospf 1
       router-id 1.255.0.1
       network 1.255.0.1 0.0.0.0 area 0
-      network 100.0.10.0 0.0.0.3 area 0
+      network 192.168.14.0 0.0.0.3 area 0
       mpls ldp autoconfig
   ```
 * relazione iBGP con altri router all'interno dell'AS:
@@ -229,11 +232,12 @@ tramite questi indirizzi, appresi con OSPF.
 
 * aggiunta di una route statica:
   ```shell
-     ip route vrf vpnA 10.23.1.0 255.255.255.0 100.0.14.1
+     ip route vrf vpnA 10.23.1.0 255.255.255.0 100.1.14.1
      ip route 1.0.0.0 255.0.0.0 Null0
   ```
+
 > **ip vrf forwarding vpnA**: abilita il forwarding dei pacchetti per la BGP/MPLS VPN sull’interfaccia del PE connessa
-  al CE.
+> al CE.
 
 ## AS200
 
@@ -389,9 +393,9 @@ Configurazione del Client-Edge A1:
 ```shell
  sysctl -w net.ipv4.ip_forward=1
  ip link set enp0s3 up
- ip addr add 100.0.22.1/30 dev enp0s3
+ ip addr add 100.2.22.1/30 dev enp0s3
  
- ip route add default via 100.0.22.2
+ ip route add default via 100.2.22.2
  ```
 
 Permette il forwarding:
@@ -637,25 +641,36 @@ mount -tsecurityfs securityfs /sys/kernel/security
 I **profili** di AppArmor sono semplici file di testo situati in /etc/apparmor.d/. In questo caso, abbiamo utilizzato un
 esempio come questo:
 
-- /etc/apparmor.d/bin.ping è il profilo AppArmor per il comando /bin/ping.
+- /etc/apparmor.d/home.nsduser.example.sh è il profilo AppArmor.
 
-Per creare un nuovo profilo, crea il file bin.ping all'interno della directory dei profili /etc/apparmor.d:
+Per creare un nuovo profilo, crea il file home.nsduser.example.sh all'interno della directory dei profili
+/etc/apparmor.d:
 
 ```shell
-#include <tunables/global>
-profile ping /{,usr}/bin/ping {
-  #include <abstractions/base>
-  #include <abstractions/consoles>
-  #include <abstractions/nameservice>
+include <tunables/global>
+/home/nsduser/example.sh {
+  include <abstractions/base>
+  include <abstractions/consoles>
+  include <abstractions/bash>
 
-  deny capability net_raw,
-  capability setuid,
-  network inet raw,
-  network inet6 raw,
+  owner /home/ rw,
+  owner /home/** rw,
+  owner /root/ rw,
+  owner /root/** rw,
 
-  /{,usr}/bin/ping mixr,
-  /etc/modules.conf r,
+  /home/nsduser/example.sh ix,
+  /usr/bin/bash rix,
+  /usr/bin/touch mrix,
+  /usr/bin/mkdir mrwix,
+  /bin/touch mrwix,
+  /bin/mkdir mrwix,
 
+  deny /usr/bin/rmdir x,
+  deny /usr/bin/rm x,
+  deny /bin/rmdir x,
+  deny /bin/rm x,
+
+  owner /home/*/sample.txt w,
 }
 ```
 
@@ -668,13 +683,19 @@ apparmor_status
 **aa-enforce** mette un profilo in modalità enforce:
 
 ```shell
-aa-enforce /etc/apparmor.d/bin.ping
+aa-enforce /etc/apparmor.d/home.nsduser.example.sh
 ```
 
 Per ricaricare un profilo:
 
 ```shell
-apparmor_parser -r /etc/apparmor.d/bin.ping
+apparmor_parser -r /etc/apparmor.d/home.nsduser.example.sh
+```
+
+Per dare il permesso di esecuzion nel filesystem di example.sh:
+
+```shell
+chmod +x /home/nsduser/example.sh
 ```
 
 > > **apparmor_parser** viene utilizzato per caricare un profilo nel kernel. Può essere utilizzato anche per ricaricare
@@ -730,7 +751,7 @@ La parte di configurazione di rete del [server](script/openvpn/ovpn-server.sh) �
     echo 1 > /proc/sys/net/ipv4/ip_forward
     ```
 
-La parte di configurazione OpenVPN del[server](script/openvpn/conf/server.ovpn) è la seguente:
+La parte di configurazione OpenVPN del [server](script/openvpn/conf/server.ovpn) è la seguente:
 
 - le seguenti righe per impostare la porta di ascolto del server su 1194, il formato di incapsulamento su UDP e
   l'interfaccia virtuale su tun:
@@ -821,10 +842,10 @@ Per esaminare la tabella di forwarding MPLS tra i router:
 show mpls forwarding-table
 ```
 
-Esamina le rotte associate alla VPN:
+Da PE1 a CE-A3:
 
 ```shell
-show ip route vrf customers
+ping vrf vpnA 100.1.14.1
 ```
 
 ### Spoke -> Spoke
@@ -854,31 +875,51 @@ utilizzate per il forwarding dei pacchetti.
 Per testare la configurazione MACsec sono stati effettuati i seguenti test:
 
 - HostA2 -> HostA1:
-    - Verifica ICMP verso ```ping 10.23.0.3```
-    - Verifica incapsulamento in MACsec Frame in HostA2 tramite: ```tcpdump -i macsec0``` e ```tcpdump -i enp0s3```
+    - Verifica ICMP verso
+      ```shell
+      ping 10.23.0.3
+      ```
+    - Verifica incapsulamento in MACsec Frame in HostA2 tramite:
+      ```shell
+      tcpdump -i macsec0
+      ```
+      ```shell
+       tcpdump -i enp0s3
+      ```
 
 ### OverlayVPN
 
 Dopo aver configurato il server e il client, eseguire dal server:
 
 ```shell
-openvpn /gns3volumes/openvpn/server.ovpn
+cd /gns3volumes/openvpn/
+openvpn server.ovpn
 ```
 
 Da HostB2:
 
 ```shell
-openvpn /gns3volumes/openvpn/HostB2.ovpn
+cd /gns3volumes/openvpn/
+openvpn hostB2.ovpn
 ```
 
 Per testare la configurazione OpenVPN sono stati effettuati i seguenti test:
 
 - Handshake HostB1 -> ovpn-server
 - HostB2 -> ovpn-server:
-    - Verifica ICMP verso ```ping 2.0.0.1```
-    - Verifica OpenVPN verso ```ping 192.158.100.1```
+    - Verifica ICMP verso
+      ```shell
+      ping 2.0.0.1
+      ```
+    - Verifica OpenVPN verso
+      ```shell
+      ping 192.168.100.1
+      ```
 - HostB1 -> HostB2:
-    - Verifica ICMP verso ```ping 192.168.17.1```
+    - Verifica ICMP verso
+      ```shell
+      ping 192.168.17.1
+      ```
 
 ### EVPN/VXLAN
 
@@ -908,12 +949,36 @@ Per testare la configurazione EVPN/VXLAN sono stati effettuati i seguenti test:
   ip route show vrf TENA
   ```
 
-- tAvm1 -> tAvm2: ```ping 10.123.10.2```
+- tAvm1 -> tAvm2:
+  ```shell
+  ping 10.123.10.2
+  ```
 
 ### Firewall
 
 Per testare la configurazione del Firewall su CE-A2 sono stati effettuati i seguenti test:
 
-- leaf 1 -> PE3: ip vrf exec TENA ```ping 100.0.32.2```
-- CE-A2 -> leaf1 ```ping 10.123.0.254```
+- leaf 1 -> PE3:
 
+  ```shell
+  ip vrf exec TENA
+  ```
+  ```shell
+  ping 100.3.32.2
+  ```
+- CE-A2 -> leaf1
+  ```shell
+  ping 10.123.0.254
+  ```
+
+### AppArmor
+
+Per testare il profilo home.nsduser.example.sh:
+
+``` shell
+  mount -tsecurityfs securityfs /sys/kernel/security
+  apparmor_parser -r /etc/apparmor.d/home.nsduser.example.sh
+  chmod +x /home/nsduser/example.sh
+  cd home/nsduser
+  ./example.sh
+ ```
